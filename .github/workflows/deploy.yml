@@ -19,7 +19,7 @@ jobs:
       - name: Install, build, and upload your site
         uses: withastro/action@v1
         with:
-          node-version: 14  # Specify your desired Node.js version here
+          node-version: 18  # Use a version supported by Astro
           package-manager: pnpm@6.16.1  # Specify the pnpm version here
 
   deploy:
