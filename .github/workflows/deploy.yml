@@ -40,13 +40,13 @@ jobs:
       - name: Set up Node.js and pnpm
         uses: actions/setup-node@v3
         with:
-          node-version: 14
+          version: 14
           # Specify the pnpm version
           package-manager: pnpm
 
       - name: Install dependencies
         run: pnpm install
-        
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
