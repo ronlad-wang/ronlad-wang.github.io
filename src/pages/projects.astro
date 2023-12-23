@@ -5,30 +5,38 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
 <BaseLayout title = "Projects" sideBarActiveItemID="projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">Personal Projects</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
+    title="EdStem ChatGPT Integration"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    desc="Automatically find unanswered questions and generates potential answers to conceptual and logistical questions. The bot classifies questions based on their contents and accesses pages in the course website with relevant information to assist in producing an accurate answer. Looking to further develop capabilities to debug student code by accessing the student's github repository and cloning the relevant code."
     url="#"
-    badge="NEW"
+    badge="ONGOING"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
+    title="EdStem Slackbot"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    desc="Bot that automatically scrapes an online forum and compiles a report of unresolved questions, links to said questions, and the amount of time which has passed since they were made. This report is then automatically sent to a channel in the CS61B course staff Slack using a cron job."
+    url="#"
+  />
+
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="NOx Soil Emission Analysis"
+    img="/post_img.webp"
+    desc="Exploration of the impact of rainfall and other environmental factors on the level of NOx emissions from soil in sub-Saharan Africa. Used numpy, seaborne, pandas, scipy and other libraries to draw conclusions using NASA satellite data."
     url="#"
   />
 
   <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Course Projects</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 3"
+    title=""
     img="/post_img.webp"
     desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     url="#"
